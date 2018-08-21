@@ -1,0 +1,27 @@
+{
+  "name": "wifi-scanner",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./electron/main.js",
+  "dependencies": {
+    "node-wifi-scanner": "^1.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
+    "yargs": "^12.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron . --dev"
+  },
+  "devDependencies": {
+    "electron": "^3.0.0-beta.6",
+    "electron-builder": "^20.28.2"
+  },
+  "build": {
+    "appId": "polygontech.wifi.scanner"
+  }
+}
